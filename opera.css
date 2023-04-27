@@ -1,0 +1,466 @@
+body{
+    background-image: url("library1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a{
+    width: 500px;
+    height: 500px;
+    border: solid;
+    margin-left: 250px;
+    margin-top: 75px;
+    background-color: hotpink;
+}
+#b{
+    width: 85px;
+    height: 85px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: solid;
+}
+.c{
+    width: 350px;
+    height: 90px;
+    font-family:Comic Sans MS;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    text-align: top;
+    float: right;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+nav{
+    width: 91%;
+    height: 95px;
+    line-height: 30px;
+    background-color: hotpink;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: Comic Sans MS;
+    text-align: center;
+    display: inline-block;
+}
+nav ul li a:hover{
+    color: aliceblue;
+}
+nav ul li a:active{
+    color: red;
+} 
+.tag{
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    height: 95px;
+    align-items: center;
+    color:red;
+}
+#home{
+    width: 40px;
+    height: 40px;
+}
+#aa{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    float: left;
+    border: solid;
+}
+.bb{
+    font-size: 23pt;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    text-align: center;
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+#email{
+    width: 60px;
+    height: 60px;
+    margin-right: 35px;
+    float: left;
+}
+#emailaddress{
+    width: 300px;
+    height: 38px;
+    float: left;
+}
+#password{
+    width: 60px;
+    height: 60px;
+    margin-right: 35px;
+    background-color: hotpink;
+    float: left;
+}
+#pass{
+    width: 300px;
+    height: 38px; 
+    float: left;
+}
+#fpass{
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+#buttona{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#button{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#para{
+    font-size: 13pt;
+    font-family: Times New Roman;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#button1{
+    width: 250px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#code{
+    width: 375px;
+    height: 38px;
+}
+#code1{
+    width: 375px;
+    height: 38px;
+}
+#code2{
+    width: 375px;
+    height: 38px;
+}
+#button2{
+    width: 200px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+table{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#para4{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#email2{
+    height: 30px;
+}
+#lname,#fname{
+    height: 30px;
+    width:177.5px;
+}
+#email2{
+    width: 355px;
+}
+#email3{
+    width: 355px;
+    height: 30px;
+}
+#email4{
+    width: 355px;
+    height: 30px;
+}
+#fpass1{
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    margin-left: 60px;
+}
+.showbtn{
+    position:absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    
+}
+.showbtn1{
+    position: relative;
+}
+::placeholder{
+    font-family: Comic Sans MS;
+}
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+    background:black;
+    border-radius: 7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:4px; }
+#dialogbox > div > #dialogboxhead{ background:hotpink; font-size:15pt;font-family: Comic Sans MS; padding:10px; color:black;font-weight: bold; }
+#dialogbox > div > #dialogboxbody{ background:hotpink; padding:20px;font-family: Comic Sans MS; color:black;font-size:13pt; }
+#dialogbox > div > #dialogboxfoot{ background:hotpink ;padding:10px; text-align:right;font-family: Comic Sans MS;font-weight: bold; }
+
+.nav{
+    width: 100%;
+    padding: 0px 0px;
+    margin-top: 70px;
+    background-color: hotpink;
+}
+.nav ul{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: -5px;
+    color: black;
+    font-size: 20px;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    border-left: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+i{
+    margin: 0px 5px;
+}
+.nav ul li:hover{
+    background-color: red;
+    color: bisque;
+    font-weight:bold;
+}
+.nav ul li:active{
+    background-color: blue;
+    color: bisque;
+    font-weight:bold;
+}
+.nav ul li:link{
+    background-color: blue;
+    color: bisque;
+    font-weight:bold;
+}
+.current{
+    background-color: blue;
+    color:white;
+    font-weight:bold;
+    padding-top:23px;
+    padding-bottom:17px;
+    padding-left:5px;
+    padding-right:1px;
+}
+.op{
+    height: 600px;
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 100px; 
+}
+.op1{
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+#txtF{
+    height: 40px;
+    width: 1000px;
+    margin-right: 40px;
+}
+.m{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+::placeholder{
+    font-family: Comic Sans MS;
+}
+#plusIcon{
+    width: 60px;
+    height: 60px;
+    margin-left: 1100px;
+}
+.m1{
+    margin-top: 10px;
+}
+#submitBtn{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#selectBtn{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+#reset{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 150px;
+}
+.lkj{
+    display: inline;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+#reset1{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 150px; 
+}
+#reset2{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 150px;
+}
+#mn{
+    font-family: Comic Sans MS;
+    font-size: 16pt;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#b1, #b2{
+    width: 70px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#ik{
+    margin-top: 70px;
+    margin-left: 400px;
+}
+#kl{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+#text1,#text2,#text3,#text4,#text5,#text6{
+    margin-left: 50px;
+    width: 400px;
+    height: 20px;
+}
+#submit3,#button7{
+    width: 100px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+}
+#gh{
+    margin-left: 150px;
+}
+#asd{
+    margin-top: 70px;
+    margin-left: 300px; 
+}
+#v{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+#jus{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Comic Sans MS;
+    font-size: 11pt;
+    text-align: justify;
+}
+#ul{
+    margin-left: 90px;
+    margin-right: 50px;
+    font-family: Comic Sans MS;
+    font-size: 11pt;
+    text-align: justify;
+}
+#buttonr{
+    width: 80px;
+    height: 40px;
+    background-color: mediumblue;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 200px;
+}
